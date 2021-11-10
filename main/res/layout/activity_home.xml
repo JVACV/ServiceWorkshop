@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/buttonSimpleService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Service"
+        android:textColor="@color/colorPrimaryLight"
+        android:background="@color/colorAccent" />
+
+
+    <Button
+        android:id="@+id/buttonIntentService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Intent Service"
+        android:textColor="@color/colorPrimaryLight"
+        android:background="@color/colorAccent" />
+
+
+    <Button
+        android:id="@+id/buttonBoundServiceIBind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Bound Service (IBind)"
+        android:textColor="@color/colorPrimaryLight"
+        android:background="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/buttonBoundServiceRemote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Bound Service (Remote)"
+        android:textColor="@color/colorPrimaryLight"
+        android:background="@color/colorAccent" />
+
+
+    <Button
+        android:id="@+id/buttonAudio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Audio Service"
+        android:textColor="@color/colorPrimaryLight"
+        android:background="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/buttonAlarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Alarm Service"
+        android:textColor="@color/colorPrimaryLight"
+        android:background="@color/colorAccent" />
+
+
+</LinearLayout>
